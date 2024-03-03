@@ -1,0 +1,86 @@
+.portfolio-section {
+  height: 600vh;
+  position: relative;
+}
+.portfolio-section .header-section {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8xl;
+  text-align: center;
+}
+.portfolio-section .sticky-section {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 100vh;
+  gap: 4;
+  align-items: center;
+  overflow: hidden;
+}
+.portfolio-section .motion-section {
+  display: flex;
+}
+.portfolio-section .background-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, purple 0%, red 100%);
+}
+.portfolio-section .item-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Add similar gradient classes for other colors */
+}
+.portfolio-section .item-section.from-red-300.to-blue-300 {
+  background: linear-gradient(to right, red 0%, blue 100%);
+}
+.portfolio-section .content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+}
+.portfolio-section .content-section .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.portfolio-section .content-section .image-section {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.portfolio-section .content-section .image-section img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.portfolio-section .content-section .description {
+  width: 80%;
+}
+.portfolio-section .content-section .demo-button {
+  padding: 2;
+  font-size: sm;
+  background: white;
+  color: gray;
+  font-weight: bold;
+  margin: 4;
+  border-radius: 0.25rem;
+}
+
+.contact-text {
+  font-size: 22px;
+  color: white;
+}/*# sourceMappingURL=game.css.map */

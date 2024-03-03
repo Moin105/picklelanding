@@ -37,7 +37,7 @@
     object-fit: cover;
     margin-bottom: 15px;
     border-radius: 10px;
-    animation: moveImages 10s linear infinite; /* Apply animation to each image */
+    animation: moveImages 6s linear infinite; /* Apply animation to each image */
 }
 
 /* Keyframes for moving images */
