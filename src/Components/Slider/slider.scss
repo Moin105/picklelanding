@@ -1,0 +1,28 @@
+.slider-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    h1{
+        margin: 30px auto 60px;
+        text-align: center;
+        font-family: 'Anta';
+        font-size: 48px;
+        cursor: pointer;
+    }
+    .react-stacked-center-carousel {
+        padding:20px 0px;
+    }
+    button{
+        display: flex;
+        border: 1px solid #fff;
+        font-size: 25px;
+        margin-top: 50px;
+        padding: 10px 20px;
+        color:white;
+        background-color: black;
+        cursor: pointer ;
+        font-weight: 700;
+    }
+}

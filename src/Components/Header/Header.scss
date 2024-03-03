@@ -1,0 +1,36 @@
+.headers{
+    background-color: #110E0F;
+    .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    figure{
+        cursor: pointer;
+        margin: 0 ;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    margin: 0 auto;
+    nav{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin: 0 1rem;
+                font-family: 'Anta';
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+            }& li:hover{
+                border-bottom: 1px solid #fff;
+                transition: border-bottom 2s ease;
+            }
+
+        }
+    }
+}}

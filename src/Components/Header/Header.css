@@ -1,0 +1,35 @@
+.headers {
+  background-color: #110E0F;
+}
+.headers .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.headers .header figure {
+  cursor: pointer;
+  margin: 0;
+}
+.headers .header figure img {
+  width: 50px;
+  height: 50px;
+}
+.headers .header nav ul {
+  display: flex;
+  list-style: none;
+}
+.headers .header nav ul li {
+  margin: 0 1rem;
+  font-family: "Anta";
+}
+.headers .header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.headers .header nav ul li:hover {
+  border-bottom: 1px solid #fff;
+  transition: border-bottom 2s ease;
+}/*# sourceMappingURL=Header.css.map */

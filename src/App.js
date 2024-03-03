@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ResponsiveCarousel from './Components/Slider/Slider'
+import Header from './Components/Header/Header';
+import NumberSection from './Components/NumberSection/StatsSection';
+import Banner from './Components/Banner/Banner';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ <div className='main'>
+ <Header/>
+ <ResponsiveCarousel/>
+ <div className='stats-section'>
+      <NumberSection heading="Total Items" endValue={100} plus={false} />
+      <NumberSection heading="Total Owners" endValue={200} plus={true} />
+      <NumberSection heading="Floor Price (ADA)" endValue={100} plus={false} />
+      <NumberSection heading="Volume Traded (ADA)" endValue={200} plus={false} />
+
     </div>
+    <Banner/>
+ </div>
+
   );
 }
 
