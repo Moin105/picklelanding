@@ -37,26 +37,25 @@
 }
 .banner .row-images {
   display: flex;
-  width: 93%;
-  justify-content: flex-start;
-  gap: 23%;
+  width: 90%;
   height: 300px;
+  margin: 0px 10% 0px auto;
+  justify-content: flex-start;
   flex-direction: row-reverse;
-  margin: 0px auto 0px 0px;
-  animation: move-images 2s ease infinite alternate;
-  align-self: flex-start;
+  animation: move-image 2s ease infinite alternate;
+  gap: 30%;
 }
 .banner .row-images2 {
   display: flex;
   width: 90%;
   height: 300px;
-  margin: 0px 10% 0px auto;
-  justify-content: center;
+  margin: 0px 5% 0px auto;
+  justify-content: flex-start;
   animation: move-image 2s ease infinite alternate;
-  gap: 24%;
+  gap: 30%;
 }
 .banner .image-container {
-  width: 266px;
+  width: 300px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
@@ -72,7 +71,7 @@
   background-image: url("../../Assets/pickle2.png");
 }
 .banner .image-container2 {
-  width: 266px;
+  width: 300px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
@@ -88,7 +87,7 @@
   background-image: url("../../Assets/pickle4.png");
 }
 .banner .image-container3 {
-  width: 266px;
+  width: 300px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
@@ -104,7 +103,7 @@
   background-image: url("../../Assets/pickle7.jpeg");
 }
 .banner .image-container4 {
-  width: 266px;
+  width: 300px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;

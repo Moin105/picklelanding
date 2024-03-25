@@ -21,10 +21,10 @@ function App() {
 
 
  <div className='stats-section' style={{marginBottom:"50px"}}>
-      <NumberSection heading="Total Items" endValue={100} plus={false} />
+      {/* <NumberSection heading="Total Items" endValue={100} plus={false} />
       <NumberSection heading="Total Owners" endValue={200} plus={true} />
       <NumberSection heading="Floor Price (ADA)" endValue={100} plus={false} />
-      <NumberSection heading="Volume Traded (ADA)" endValue={200} plus={false} />
+      <NumberSection heading="Volume Traded (ADA)" endValue={200} plus={false} /> */}
 
     </div>
 
