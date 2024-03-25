@@ -1,20 +1,44 @@
 .headers {
   background-color: #110E0F;
+  position: fixed;
+  width: 100%;
+  z-index: 111;
 }
 .headers .header {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 0px;
   max-width: 95%;
   margin: 0 auto;
 }
 .headers .header figure {
   cursor: pointer;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 .headers .header figure img {
   width: 50px;
   height: 50px;
+}
+.headers .header figure ul {
+  display: flex;
+  list-style: none;
+}
+.headers .header figure ul li {
+  margin: 0 1rem;
+  font-family: "Anta";
+}
+.headers .header figure ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.headers .header figure ul li:hover {
+  border-bottom: 1px solid #fff;
+  transition: border-bottom 2s ease;
 }
 .headers .header nav ul {
   display: flex;
@@ -27,7 +51,7 @@
 .headers .header nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 20px;
 }
 .headers .header nav ul li:hover {
   border-bottom: 1px solid #fff;

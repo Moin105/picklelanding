@@ -1,0 +1,45 @@
+.gamers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+  color: #000;
+}
+.gamers h2 {
+  font-size: 66px;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+.gamers p {
+  font-size: 23px;
+}
+.gamers .gamers-games {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 30px auto;
+}
+.gamers .gamers-games .game-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.gamers .gamers-games .game-section button {
+  background-color: white;
+  color: black;
+  padding: 1px 20px;
+  border: 1px solid black;
+  width: 300px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.gamers .gamers-games .game-section button:hover {
+  background-color: #000;
+  color: white;
+}/*# sourceMappingURL=Gamers.css.map */

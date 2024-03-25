@@ -1,0 +1,67 @@
+.learncontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+}
+.learncontainer .learnmore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #F4F4F3;
+  color: #000;
+}
+.learncontainer .learnmore h2 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.learncontainer .learnmore p {
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+}
+.learncontainer .learnmore img {
+  width: 25%;
+  min-width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 20px;
+}
+.learncontainer .learnmore button {
+  background-color: white;
+  color: black;
+  padding: 1px 20px;
+  border: 1px solid black;
+  width: 300px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.learncontainer .learnmore button:hover {
+  background-color: #000;
+  color: white;
+}
+.learncontainer .learnbottom {
+  display: flex;
+  justify-content: center;
+  background-color: #F4F4F3;
+  color: #000;
+  flex-direction: column;
+  align-items: center;
+}
+.learncontainer .learnbottom p {
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+}
+.learncontainer .learnbottom .box-span {
+  display: flex;
+  font-size: 28px;
+  gap: 20px;
+  color: black;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=learnmore.css.map */

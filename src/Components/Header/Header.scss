@@ -1,16 +1,40 @@
 .headers{
     background-color: #110E0F;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
     .header{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px;
     max-width: 95%;
     figure{
         cursor: pointer;
         margin: 0 ;
+        display: flex;
+        align-items: center;
         img{
             width: 50px;
             height: 50px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin: 0 1rem;
+                font-family: 'Anta';
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+            }& li:hover{
+                border-bottom: 1px solid #fff;
+                transition: border-bottom 2s ease;
+            }
+
         }
     }
     margin: 0 auto;
@@ -24,7 +48,7 @@
                 a{
                     text-decoration: none;
                     color: #fff;
-                    font-size: 1rem;
+                    font-size: 20px;
                 }
             }& li:hover{
                 border-bottom: 1px solid #fff;

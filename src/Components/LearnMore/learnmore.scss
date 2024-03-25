@@ -1,0 +1,66 @@
+.learncontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+  .learnmore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #F4F4F3;
+    color: #000;
+    h2 {
+      font-size: 48px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+    }
+    p {
+      font-size: 23px;
+      font-family: "Poppins", sans-serif;
+    }
+    img {
+      width: 25%;
+      min-width: 200px;
+      object-fit: contain;
+      margin: 20px;
+    }
+    button {
+      background-color: white;
+      color: black;
+      padding: 1px 20px;
+      border: 1px solid black;
+      width: 300px;
+      cursor: pointer;
+      margin: 0 auto;
+      font-size: 20px;
+      margin-top: 20px;
+      &:hover {
+        background-color: #000;
+        color: white;
+      }
+    }
+  }
+  .learnbottom{
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F3;
+    color: #000;
+    flex-direction: column;
+    align-items: center;
+    p{
+        font-size: 23px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        margin: 30px;
+    }
+    .box-span{
+        display: flex;
+        font-size: 28px;
+        gap: 20px;
+        color: black;
+        margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.banner{
+    display: flex;
+    margin: 120px 0px 50px 0px;
+    flex-wrap: wrap;flex-direction: column;
+    gap: 20px;
+    .banner-bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        .left{
+            width: 50%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            p{
+                font-size: 18px;
+                display: flex;
+                margin-left: -30px;
+                text-align: center;
+                gap:5px;
+                align-items: center;
+            }
+        }
+        .right{
+            width: 50%;
+            text-align: left;
+            // font-size: 48px;
+            h2{
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 58px;
+            }
+        }
+    }
+    .row-images{
+        display: flex;
+        width: 93%;
+        justify-content: flex-start;
+        gap: 23%;
+        flex-direction: row-reverse;
+        margin: 0px auto 0px 0px;
+        animation: move-images 2s ease infinite alternate;
+        align-self: flex-start;
+    }
+    .row-images2{
+        display: flex;
+        width: 90%;
+        margin: 0px 10% 0px auto;
+        justify-content: center;
+        animation: move-image 2s ease infinite alternate; // Apply animation
+        gap: 24%;
+    }
+    .image-container{
+        width: 266px;
+        height: auto;
+        object-fit: contain;
+        transform-style: preserve-3d;
+        transition: transform 1s ease; // Smooth transition for flip effect
+        &:hover {
+            transform: rotateY(180deg); // Rotate image on Y-axis when hovered
+        }
+    }
+    @keyframes move-images {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-10%); // Adjust the distance to move
+        }
+    }
+    @keyframes move-image {
+        0% {
+            transform: translateX(-10%);
+        }
+        100% {
+            transform: translateX(0); // Adjust the distance to move
+        }
+    }
+}
