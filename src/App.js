@@ -20,7 +20,7 @@ function App() {
  {/* <ResponsiveCarousel/> */}
 
 
- <div className='stats-section' style={{marginBottom:"50px"}}>
+ <div  style={{marginBottom:"50px"}}>
       {/* <NumberSection heading="Total Items" endValue={100} plus={false} />
       <NumberSection heading="Total Owners" endValue={200} plus={true} />
       <NumberSection heading="Floor Price (ADA)" endValue={100} plus={false} />
