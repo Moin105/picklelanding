@@ -31,12 +31,14 @@ function Banners() {
   return (
     <div className='banner'>
     <div className='row-images2'>
-         <img src={pickle1} className='image-container mar1' alt="" />
-        <img src={pickle2} className='image-container  mar2' alt="" />
+    <div className='image-container'></div>
+    <div className='image-container2'></div>
+         {/* <img src={pickle1} className='image-container mar1' alt="" /> */}
+        {/* <img src={pickle2} className='image-container  mar2' alt="" /> */}
     </div>
     <div className='row-images'>
-        <img src={pickle3} className='image-container  mar1' alt="" />
-        <img src={pickle4} className='image-container  mar2' alt="" />
+    <div className='image-container3'></div>
+    <div className='image-container4'></div>
     </div>
     <div className='banner-bottom'>
     <div className='right'>

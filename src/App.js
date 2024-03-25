@@ -17,7 +17,7 @@ function App() {
       Hello world!
     </h1> */}
     <Banners/>
- <ResponsiveCarousel/>
+ {/* <ResponsiveCarousel/> */}
 
 
  <div className='stats-section' style={{marginBottom:"50px"}}>
