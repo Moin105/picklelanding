@@ -13,8 +13,9 @@ const Header = () => {
                     <img src={logo} alt="Logo"/>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/collection">Collection</a></li>
+                        <li><a href="/about">Pickle Arcade</a></li>
+                        <li><a href="/collection">Picklehub</a></li>
+                        <li><a href="/collection">Pickle Paper</a></li>
                     </ul>
                 </figure>
                 <nav>

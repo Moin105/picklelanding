@@ -3,6 +3,102 @@
     margin: 120px 0px 50px 0px;
     flex-wrap: wrap;flex-direction: column;
     gap: 20px;
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        max-width: 1450px;
+        width: 100%;
+        margin: 0 auto;
+        .row-images{
+            display: flex;
+            width: 90%;
+            height: 300px;
+            margin: 0px 5% 0px auto;
+            justify-content: flex-start;
+            flex-direction: row-reverse;
+            animation: move-image 2s ease infinite alternate; // Apply animation
+            gap: 30%;
+        }
+        .row-images2{
+            display: flex;
+            width: 90%;
+            height: 300px;
+            margin: 0px 5% 0px auto;
+            justify-content: flex-start;
+    
+            animation: move-image 2s ease infinite alternate; // Apply animation
+            gap: 27%;
+        }
+        .image-container{
+            width: 300px;
+            height: auto;
+            object-fit: contain;
+            background-image: url('../../Assets/pickle1.png');
+            background-size: contain;
+            transform-style: preserve-3d;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 1s ease; // Smooth transition for flip effect
+            &:hover {
+                transform: rotateY(180deg);
+                background-image: url('../../Assets/pickle2.png');
+    
+                 // Rotate image on Y-axis when hovered
+            }
+        }
+        .image-container2{
+            width: 300px;
+            height: auto;
+            object-fit: contain;
+            background-image: url('../../Assets/pickle3.png');
+            background-size: contain;
+            transform-style: preserve-3d;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 1s ease; // Smooth transition for flip effect
+            &:hover {
+                transform: rotateY(180deg);
+                background-image: url('../../Assets/pickle4.png');
+    
+                 // Rotate image on Y-axis when hovered
+            }
+        }
+        .image-container3{
+            width: 300px;
+            height: auto;
+            object-fit: contain;
+            background-image: url('../../Assets/pickle5.png');
+            background-size: contain;
+            transform-style: preserve-3d;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 1s ease; // Smooth transition for flip effect
+            &:hover {
+                transform: rotateY(180deg);
+                background-image: url('../../Assets/pickle7.jpeg');
+    
+                 // Rotate image on Y-axis when hovered
+            }
+        }
+        .image-container4{
+            width: 300px;
+            height: auto;
+            object-fit: contain;
+            background-image: url('../../Assets/pickle6.png');
+            background-size: contain;
+            transform-style: preserve-3d;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 1s ease; // Smooth transition for flip effect
+            &:hover {
+                transform: rotateY(180deg);
+                background-image: url('../../Assets/pickle9.png');
+    
+                 // Rotate image on Y-axis when hovered
+            }
+        }
+    }
     .banner-bottom{
         display: flex;
         justify-content: space-between;
@@ -34,94 +130,7 @@
             }
         }
     }
-    .row-images{
-        display: flex;
-        width: 90%;
-        height: 300px;
-        margin: 0px 10% 0px auto;
-        justify-content: flex-start;
-        flex-direction: row-reverse;
-        animation: move-image 2s ease infinite alternate; // Apply animation
-        gap: 30%;
-    }
-    .row-images2{
-        display: flex;
-        width: 90%;
-        height: 300px;
-        margin: 0px 5% 0px auto;
-        justify-content: flex-start;
-
-        animation: move-image 2s ease infinite alternate; // Apply animation
-        gap: 30%;
-    }
-    .image-container{
-        width: 300px;
-        height: auto;
-        object-fit: contain;
-        background-image: url('../../Assets/pickle1.png');
-        background-size: contain;
-        transform-style: preserve-3d;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: transform 1s ease; // Smooth transition for flip effect
-        &:hover {
-            transform: rotateY(180deg);
-            background-image: url('../../Assets/pickle2.png');
-
-             // Rotate image on Y-axis when hovered
-        }
-    }
-    .image-container2{
-        width: 300px;
-        height: auto;
-        object-fit: contain;
-        background-image: url('../../Assets/pickle3.png');
-        background-size: contain;
-        transform-style: preserve-3d;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: transform 1s ease; // Smooth transition for flip effect
-        &:hover {
-            transform: rotateY(180deg);
-            background-image: url('../../Assets/pickle4.png');
-
-             // Rotate image on Y-axis when hovered
-        }
-    }
-    .image-container3{
-        width: 300px;
-        height: auto;
-        object-fit: contain;
-        background-image: url('../../Assets/pickle5.png');
-        background-size: contain;
-        transform-style: preserve-3d;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: transform 1s ease; // Smooth transition for flip effect
-        &:hover {
-            transform: rotateY(180deg);
-            background-image: url('../../Assets/pickle7.jpeg');
-
-             // Rotate image on Y-axis when hovered
-        }
-    }
-    .image-container4{
-        width: 300px;
-        height: auto;
-        object-fit: contain;
-        background-image: url('../../Assets/pickle6.png');
-        background-size: contain;
-        transform-style: preserve-3d;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: transform 1s ease; // Smooth transition for flip effect
-        &:hover {
-            transform: rotateY(180deg);
-            background-image: url('../../Assets/pickle9.png');
-
-             // Rotate image on Y-axis when hovered
-        }
-    }
+  
     // @keyframes move-images {
     //     0% {
     //         transform: translateX(0);

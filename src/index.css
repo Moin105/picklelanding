@@ -3,7 +3,7 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family:'Anta';
+  font-family:'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,11 +13,11 @@ code {
     monospace;
 }
 .anta-regular {
-  font-family: "Anta", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .anta{
-  font-family: "Anta", sans-serif;
+  font-family: "Poppins", sans-serif;
 }

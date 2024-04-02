@@ -30,6 +30,7 @@ function Banners() {
     }, [inView, controls]);
   return (
     <div className='banner'>
+    <div className='banner-container'>
     <div className='row-images2'>
     <div className='image-container'></div>
     <div className='image-container2'></div>
@@ -40,6 +41,12 @@ function Banners() {
     <div className='image-container3'></div>
     <div className='image-container4'></div>
     </div>
+
+
+
+    </div>
+
+ 
     <div className='banner-bottom'>
     <div className='right'>
     <motion.h2

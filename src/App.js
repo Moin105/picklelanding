@@ -30,7 +30,7 @@ function App() {
 
     {/* <Banner/> */}
     {/* <GameSection/> */}
-    <Gamers/>
+    {/* <Gamers/> */}
     <LearnMore/>
  </div>
 
